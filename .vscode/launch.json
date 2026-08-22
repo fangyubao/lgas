@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/code/stm32/lag_gas_mkf/Core/Src",
+      "program": "e:/code/stm32/lag_gas_mkf/Core/Src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C2Clangd: STM32 Debug",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/lgas.elf",
+      "servertype": "openocd",
+      "preLaunchTask": "Makefile: Build",
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "raw",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f1x.cfg"
+      ],
+      "serverpath": "E:\\OpenOCD-20260302-0.12.0\\bin\\openocd.exe",
+      "gdbPath": "C:\\Users\\LGZN2\\STM32Cube\\Repository\\Packs\\STMicroelectronics\\X-CUBE-AI\\10.2.0\\Utilities\\windows\\gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gdb.exe",
+      "armToolchainPath": "C:\\Users\\LGZN2\\STM32Cube\\Repository\\Packs\\STMicroelectronics\\X-CUBE-AI\\10.2.0\\Utilities\\windows\\gnu-tools-for-stm32\\tools\\bin"
+    }
+  ]
+}

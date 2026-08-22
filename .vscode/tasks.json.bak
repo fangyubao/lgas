@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Makefile: Build",
+      "type": "shell",
+      "command": "E:\\msys64\\mingw64\\bin\\make.exe",
+      "args": [
+        "-f",
+        "e:\\code\\stm32\\lag_gas_mkf\\Makefile",
+        "all"
+      ],
+      "options": {
+        "cwd": "e:\\code\\stm32\\lag_gas_mkf"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Makefile: Clean",
+      "type": "shell",
+      "command": "E:\\msys64\\mingw64\\bin\\make.exe",
+      "args": [
+        "-f",
+        "e:\\code\\stm32\\lag_gas_mkf\\Makefile",
+        "clean"
+      ],
+      "options": {
+        "cwd": "e:\\code\\stm32\\lag_gas_mkf"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

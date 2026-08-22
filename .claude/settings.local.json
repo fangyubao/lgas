@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "PowerShell(pip install *)",
+      "PowerShell(pip *)",
+      "PowerShell(python -c \"import subprocess; result = subprocess.run\\(['pip', 'install', 'python-docx'], capture_output=True, text=True\\); print\\('STDOUT:', result.stdout\\); print\\('STDERR:', result.stderr\\); print\\('RC:', result.returncode\\)\")",
+      "PowerShell(python E:\\\\code\\\\stm32\\\\las_new\\\\tools\\\\gen_docx.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python modbus_scan_addr.py COM14 115200)",
+      "Bash(PYTHONIOENCODING=utf-8 python *)"
+    ]
+  }
+}

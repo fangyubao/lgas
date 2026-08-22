@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="3" uniqueCount="3"><si><t>功能说明</t></si><si><t xml:space="preserve">HMI-&gt;MCU:&#10;1.选定方程构造形式-&gt;发送键值&#10;</t></si><si><t>MCU-&gt;HMI:&#10;1.上一级【建立方程】-&gt;获取《标定》界面10个强度值&#10;2.串口屏通过上一级&quot;强度值&quot;数据-&gt;发给MCU-&gt;MCU计算'a''b''c''R'-&gt;返回3个参数</t></si></sst>

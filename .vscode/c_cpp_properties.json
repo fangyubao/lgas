@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "E:/msys64/mingw64/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    },
+    {
+      "name": "Makefile Auto",
+      "compilerPath": "C:\\Users\\LGZN2\\STM32Cube\\Repository\\Packs\\STMicroelectronics\\X-CUBE-AI\\10.2.0\\Utilities\\windows\\gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe",
+      "includePath": [
+        "e:\\code\\stm32\\lag_gas_mkf\\Core\\Inc",
+        "e:\\code\\stm32\\lag_gas_mkf\\DEVICE\\include",
+        "e:\\code\\stm32\\lag_gas_mkf\\USB_DEVICE\\App",
+        "e:\\code\\stm32\\lag_gas_mkf\\USB_DEVICE\\Target",
+        "e:\\code\\stm32\\lag_gas_mkf\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+        "e:\\code\\stm32\\lag_gas_mkf\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+        "e:\\code\\stm32\\lag_gas_mkf\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc",
+        "e:\\code\\stm32\\lag_gas_mkf\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Inc",
+        "e:\\code\\stm32\\lag_gas_mkf\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+        "e:\\code\\stm32\\lag_gas_mkf\\Drivers\\CMSIS\\Include",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F103xE"
+      ],
+      "forcedInclude": [],
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
