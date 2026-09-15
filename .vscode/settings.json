@@ -64,8 +64,17 @@
     "**/.vscodebuild",
     "**/build.*",
     "**/.*.vscode",
+    "**/.vscodebuild",
+    "**/build.*",
+    "**/.*.vscode",
     "**/.vscode/**"
   ],
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "C_Cpp_Runner.useUndefinedSanitizer": false,
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "C_Cpp_Runner.showCompilationTime": false,
+  "C_Cpp_Runner.useLinkTimeOptimization": false,
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
   "C_Cpp.default.compilerPath": "C:\\Users\\LGZN2\\STM32Cube\\Repository\\Packs\\STMicroelectronics\\X-CUBE-AI\\10.2.0\\Utilities\\windows\\gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe",
   "C_Cpp.default.intelliSenseMode": "gcc-arm",
@@ -105,11 +114,5 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ],
-  "C_Cpp_Runner.useAddressSanitizer": false,
-  "C_Cpp_Runner.useUndefinedSanitizer": false,
-  "C_Cpp_Runner.useLeakSanitizer": false,
-  "C_Cpp_Runner.showCompilationTime": false,
-  "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  ]
 }
